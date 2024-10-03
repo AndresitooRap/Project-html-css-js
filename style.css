@@ -1,0 +1,37 @@
+* {
+  font-family: "Indie Flower", Arial;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-link:hover {
+  background-color: rgb(35, 99, 16);
+  border-radius: 10%;
+}
+
+.heading {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: center;
+  background-color: rgba(0, 0, 0, 0.37);
+  filter: brightness(0.4);
+}
+
+.inbanner{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    
+}
+
+.cards-info {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 1px 1px 10px rgb(35, 99, 16);
+  border-width: 1px;
+}
