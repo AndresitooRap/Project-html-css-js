@@ -1,17 +1,17 @@
 * {
-  font-family: "Indie Flower", Arial;
+  font-family: "DM Sans", Arial;
   font-weight: 400;
   font-style: normal;
   margin: 0;
   padding: 0;
 }
- 
+
 .nav-link:hover {
   background-color: rgb(35, 99, 16);
   border-radius: 10%;
 }
 
-.banner{
+.banner {
   position: relative;
   top: 0;
   left: 0;
@@ -31,7 +31,7 @@
   filter: brightness(0.4);
 }
 
-.welcome{
+.welcome {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -42,7 +42,7 @@
   text-shadow: 10px 2px 6px #000;
 }
 
-.welcomeimg{
+.welcomeimg {
   position: absolute;
   width: 15rem;
   top: 50%;
@@ -50,13 +50,66 @@
   transform: translate(-50%, -50%);
 }
 
-.infocards{
+.line {
+  position: absolute;
+  margin-top: 25px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 1px;
+  background-color: #000;
+  width: 90%;
+}
+
+.infocards {
   padding: 20px;
-  align-content:space-around;
+  align-content: space-between;
   align-items: center;
   text-align: justify;
 }
 
-.contentcard{
+.contentcard {
   padding: 10px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 3%;
+  border: 1px solid #000;
+}
+
+.carousel-inner {
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+  border-radius: 2%;
+  box-shadow: 1px 1px 5px #000;
+}
+
+.carousel-item {
+  height: 100%;
+  width: 100%;
+}
+
+.carousel-item img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 576px) {
+  .carousel-inner {
+    height: 250px;
+  }
+}
+
+.profile{
+  height: 200px;
+  width: 200px;
+  overflow: hidden;
+}
+
+.profile img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
 }
