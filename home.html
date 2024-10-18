@@ -18,37 +18,48 @@
     <title>Guarderia Dante</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#"
-          ><img class="img-fluid" src="img/T-icon.png" alt="Icono" width="50px"
-        /></a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#">Inicio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="services.html">Servicios</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="pricing.html">Precios</a>
-            </li>
-          </ul>
+    <div style="position: sticky; top: 0; z-index: 1">
+      <nav
+        class="navbar navbar-expand-lg bg-body-tertiary"
+        data-bs-theme="dark"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"
+            ><img
+              class="img-fluid"
+              src="img/T-icon.png"
+              alt="Icono"
+              width="50px"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="" id="home"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="" id="services">Servicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="pricing.html">Precios</a>
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </nav>
+      </nav>
+    </div>
 
     <div
       class="banner"
@@ -169,10 +180,21 @@
 
     <div
       class="container-fluid"
+      style="background-color: green; margin-bottom: 30px"
+    >
+      <div class="container" style="padding-top: 70px; padding-bottom: 70px" id="services">
+        <div class="col-12">
+          <div class="row" id="card-container"></div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="container-fluid"
       style="
         height: auto;
         padding: 100px;
-        background-color: black;
+        background-color: rgb(33, 33, 33);
         align-content: center;
       "
     >
@@ -189,162 +211,146 @@
       </h1>
 
       >
-        <div class="row">
-          <div class="col-12 col-lg-4" style="padding: 10px">
+      <div class="row">
+        <div class="col-12 col-lg-4" style="padding: 10px">
+          <div class="card" style="width: auto; box-shadow: 1px 1px 20px blue">
             <div
-              class="card"
-              style="width: auto; box-shadow: 1px 1px 20px blue"
+              class="card-body d-flex flex-column justify-content-center align-items-center"
             >
-              <div
-                class="card-body d-flex flex-column justify-content-center align-items-center"
-              >
-                <h5 class="card-title" style="color: blue">Sofia Vivas</h5>
-                <div class="profile">
-                  <img
-                    class="img-fluid"
-                    src="img/profile1.jpeg"
-                    alt="Sofia Vivas"
-                  />
-                </div>
-                <div class="stars">
-                  <box-icon
-                    name="star"
-                    type="solid"
-                    style="fill: blue"
-                  ></box-icon>
-                  <box-icon
-                    name="star"
-                    type="solid"
-                    style="fill: blue"
-                  ></box-icon>
-                  <box-icon
-                    name="star"
-                    type="solid"
-                    style="fill: blue"
-                  ></box-icon>
-                  <box-icon
-                    name="star"
-                    type="solid"
-                    style="fill: blue"
-                  ></box-icon>
-                  <box-icon name="star" style="fill: blue"></box-icon>
-                </div>
-
-                <p style="text-align: justify">
-                  Esta guardería es un lugar maravilloso para nuestros amigos
-                  peludos y plumíferos. El ambiente es cálido y acogedor, con
-                  personal altamente capacitado que muestra un gran amor y
-                  cuidado hacia los animales. Las instalaciones están diseñadas
-                  para garantizar la seguridad y el bienestar de todos los
-                  residentes.
-                </p>
+              <h5 class="card-title" style="color: blue">Sofia Vivas</h5>
+              <div class="profile">
+                <img
+                  class="img-fluid"
+                  src="img/profile1.jpeg"
+                  alt="Sofia Vivas"
+                />
               </div>
-            </div>
-          </div>
-          <div class="col-12 col-lg-4" style="padding: 10px">
-            <div
-              class="card"
-              style="width: auto; height: 100%; box-shadow: 1px 1px 10px green"
-            >
-              <div class="card-body justify-content-center">
-                <h5 class="card-title" style="color: green">Fabian Moreno</h5>
-                <div class="profile">
-                  <img
-                    class="img-fluid"
-                    src="img/profile2.jpeg"
-                    alt="Fabian Moreno"
-                  />
-                </div>
-                <div class="stars">
-                  <box-icon
-                    name="star"
-                    type="solid"
-                    style="fill: green"
-                  ></box-icon>
-                  <box-icon
-                    name="star"
-                    type="solid"
-                    style="fill: green"
-                  ></box-icon>
-                  <box-icon
-                    name="star"
-                    type="solid"
-                    style="fill: green"
-                  ></box-icon>
-                  <box-icon
-                    name="star"
-                    type="solid"
-                    style="fill: green"
-                  ></box-icon>
-                  <box-icon
-                    name="star"
-                    type="solid"
-                    style="fill: green"
-                  ></box-icon>
-                </div>
-
-                <p style="text-align: justify">
-                  Estoy muy satisfecho con la guardería de animales. He llevado
-                  a mi perro, mi gato y mi loro, y cada uno de ellos ha tenido
-                  una experiencia maravillosa. Las instalaciones son limpias y
-                  bien mantenidas, con espacios amplios para que los perros
-                  jueguen y socialicen.
-                </p>
+              <div class="stars">
+                <box-icon
+                  name="star"
+                  type="solid"
+                  style="fill: blue"
+                ></box-icon>
+                <box-icon
+                  name="star"
+                  type="solid"
+                  style="fill: blue"
+                ></box-icon>
+                <box-icon
+                  name="star"
+                  type="solid"
+                  style="fill: blue"
+                ></box-icon>
+                <box-icon
+                  name="star"
+                  type="solid"
+                  style="fill: blue"
+                ></box-icon>
+                <box-icon name="star" style="fill: blue"></box-icon>
               </div>
-            </div>
-          </div>
 
-          <div class="col-12 col-lg-4" style="padding: 10px">
-            <div
-              class="card"
-              style="width: auto; height: 100%; box-shadow: 1px 1px 10px red"
-            >
-              <div
-                class="card-body d-flex flex-column justify-content-center align-items-center"
-              >
-                <h5 class="card-title" style="color: red">Andrés Cuevas</h5>
-                <div class="profile">
-                  <img
-                    class="img-fluid"
-                    src="img/profile3.jpeg"
-                    alt="Andrés Cuevas"
-                  />
-                </div>
-                <div class="stars">
-                  <box-icon
-                    name="star"
-                    type="solid"
-                    style="fill: red"
-                  ></box-icon>
-                  <box-icon
-                    name="star"
-                    type="solid"
-                    style="fill: red"
-                  ></box-icon>
-                  <box-icon
-                    name="star"
-                    type="solid"
-                    style="fill: red"
-                  ></box-icon>
-                  <box-icon
-                    name="star-half"
-                    type="solid"
-                    style="fill: red"
-                  ></box-icon>
-                  <box-icon name="star" style="fill: red"></box-icon>
-                </div>
-
-                <p style="text-align: justify">
-                  El personal es muy amable y se nota que ama a los animales. Me
-                  encanta que ofrecen actualizaciones diarias sobre cómo están
-                  mis mascotas, lo que me da mucha tranquilidad. Mi gato, que
-                  suele ser un poco tímido, se adaptó rápidamente gracias a los
-                  cuidados individuales que recibe.
-                </p>
-              </div>
+              <p style="text-align: justify">
+                Esta guardería es un lugar maravilloso para nuestros amigos
+                peludos y plumíferos. El ambiente es cálido y acogedor, con
+                personal altamente capacitado que muestra un gran amor y cuidado
+                hacia los animales. Las instalaciones están diseñadas para
+                garantizar la seguridad y el bienestar de todos los residentes.
+              </p>
             </div>
           </div>
         </div>
+        <div class="col-12 col-lg-4" style="padding: 10px">
+          <div
+            class="card"
+            style="width: auto; height: 100%; box-shadow: 1px 1px 10px green"
+          >
+            <div class="card-body justify-content-center">
+              <h5 class="card-title" style="color: green">Fabian Moreno</h5>
+              <div class="profile">
+                <img
+                  class="img-fluid"
+                  src="img/profile2.jpeg"
+                  alt="Fabian Moreno"
+                />
+              </div>
+              <div class="stars">
+                <box-icon
+                  name="star"
+                  type="solid"
+                  style="fill: green"
+                ></box-icon>
+                <box-icon
+                  name="star"
+                  type="solid"
+                  style="fill: green"
+                ></box-icon>
+                <box-icon
+                  name="star"
+                  type="solid"
+                  style="fill: green"
+                ></box-icon>
+                <box-icon
+                  name="star"
+                  type="solid"
+                  style="fill: green"
+                ></box-icon>
+                <box-icon
+                  name="star"
+                  type="solid"
+                  style="fill: green"
+                ></box-icon>
+              </div>
+
+              <p style="text-align: justify">
+                Estoy muy satisfecho con la guardería de animales. He llevado a
+                mi perro, mi gato y mi loro, y cada uno de ellos ha tenido una
+                experiencia maravillosa. Las instalaciones son limpias y bien
+                mantenidas, con espacios amplios para que los perros jueguen y
+                socialicen.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-lg-4" style="padding: 10px">
+          <div
+            class="card"
+            style="width: auto; height: 100%; box-shadow: 1px 1px 10px red"
+          >
+            <div
+              class="card-body d-flex flex-column justify-content-center align-items-center"
+            >
+              <h5 class="card-title" style="color: red">Andrés Cuevas</h5>
+              <div class="profile">
+                <img
+                  class="img-fluid"
+                  src="img/profile3.jpeg"
+                  alt="Andrés Cuevas"
+                />
+              </div>
+              <div class="stars">
+                <box-icon name="star" type="solid" style="fill: red"></box-icon>
+                <box-icon name="star" type="solid" style="fill: red"></box-icon>
+                <box-icon name="star" type="solid" style="fill: red"></box-icon>
+                <box-icon
+                  name="star-half"
+                  type="solid"
+                  style="fill: red"
+                ></box-icon>
+                <box-icon name="star" style="fill: red"></box-icon>
+              </div>
+
+              <p style="text-align: justify">
+                El personal es muy amable y se nota que ama a los animales. Me
+                encanta que ofrecen actualizaciones diarias sobre cómo están mis
+                mascotas, lo que me da mucha tranquilidad. Mi gato, que suele
+                ser un poco tímido, se adaptó rápidamente gracias a los cuidados
+                individuales que recibe.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
     <script
@@ -353,5 +359,6 @@
       crossorigin="anonymous"
     ></script>
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>

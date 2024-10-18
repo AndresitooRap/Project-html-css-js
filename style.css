@@ -114,6 +114,8 @@
 }
 
 .profile {
+  position: relative;
+  display: inline-block;
   width: 100%;
   max-width: 16rem;
   height: 16rem;
