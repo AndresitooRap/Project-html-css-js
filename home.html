@@ -21,7 +21,7 @@
     <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
       <div class="container-fluid">
         <a class="navbar-brand" href="#"
-          ><img src="img/T-icon.png" alt="Icono" width="50px"
+          ><img class="img-fluid" src="img/T-icon.png" alt="Icono" width="50px"
         /></a>
         <button
           class="navbar-toggler"
@@ -118,7 +118,7 @@
           </div>
         </div>
 
-        <div class="infocards container col-12 col-lg-4">
+        <div class="infocards container col-12 col-6 col-lg-4">
           <div class="col-12 contentcard">
             <div class="row">
               <div class="col-6">
@@ -167,59 +167,186 @@
       </div>
     </div>
 
-    <div class="container-fluid" style="background-color: black">
-      <h1 style="color: white; font-weight: bolder">EXPERIENCIAS</h1>
-      <div class="row">
-        <div class="col-12 col-lg-4 opinion" style="background-color: aqua">
-          <p>Sofia Vivas</p>
-          <div class="profile">
-            <img src="img/profile1.jpeg" alt="Sofia Vivas" />
+    <div
+      class="container-fluid"
+      style="
+        height: auto;
+        padding: 100px;
+        background-color: black;
+        align-content: center;
+      "
+    >
+      <h1
+        style="
+          color: white;
+          font-weight: bolder;
+          width: 100%;
+          text-align: center;
+          padding-bottom: 50px;
+        "
+      >
+        EXPERIENCIAS
+      </h1>
+
+      >
+        <div class="row">
+          <div class="col-12 col-lg-4" style="padding: 10px">
+            <div
+              class="card"
+              style="width: auto; box-shadow: 1px 1px 20px blue"
+            >
+              <div
+                class="card-body d-flex flex-column justify-content-center align-items-center"
+              >
+                <h5 class="card-title" style="color: blue">Sofia Vivas</h5>
+                <div class="profile">
+                  <img
+                    class="img-fluid"
+                    src="img/profile1.jpeg"
+                    alt="Sofia Vivas"
+                  />
+                </div>
+                <div class="stars">
+                  <box-icon
+                    name="star"
+                    type="solid"
+                    style="fill: blue"
+                  ></box-icon>
+                  <box-icon
+                    name="star"
+                    type="solid"
+                    style="fill: blue"
+                  ></box-icon>
+                  <box-icon
+                    name="star"
+                    type="solid"
+                    style="fill: blue"
+                  ></box-icon>
+                  <box-icon
+                    name="star"
+                    type="solid"
+                    style="fill: blue"
+                  ></box-icon>
+                  <box-icon name="star" style="fill: blue"></box-icon>
+                </div>
+
+                <p style="text-align: justify">
+                  Esta guardería es un lugar maravilloso para nuestros amigos
+                  peludos y plumíferos. El ambiente es cálido y acogedor, con
+                  personal altamente capacitado que muestra un gran amor y
+                  cuidado hacia los animales. Las instalaciones están diseñadas
+                  para garantizar la seguridad y el bienestar de todos los
+                  residentes.
+                </p>
+              </div>
+            </div>
           </div>
-          
-          <box-icon name="star" type="solid"></box-icon>
-          <box-icon name="star" type="solid"></box-icon>
-          <box-icon name="star" type="solid"></box-icon>
-          <box-icon name="star" type="solid"></box-icon>
-          <box-icon name="star"></box-icon>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo omnis
-            delectus, repellat totam maiores quaerat veniam! Suscipit,
-            voluptatem cumque reprehenderit iure quam perferendis dolore sequi
-            fuga consequuntur eligendi, inventore nobis.
-          </p>
+          <div class="col-12 col-lg-4" style="padding: 10px">
+            <div
+              class="card"
+              style="width: auto; height: 100%; box-shadow: 1px 1px 10px green"
+            >
+              <div class="card-body justify-content-center">
+                <h5 class="card-title" style="color: green">Fabian Moreno</h5>
+                <div class="profile">
+                  <img
+                    class="img-fluid"
+                    src="img/profile2.jpeg"
+                    alt="Fabian Moreno"
+                  />
+                </div>
+                <div class="stars">
+                  <box-icon
+                    name="star"
+                    type="solid"
+                    style="fill: green"
+                  ></box-icon>
+                  <box-icon
+                    name="star"
+                    type="solid"
+                    style="fill: green"
+                  ></box-icon>
+                  <box-icon
+                    name="star"
+                    type="solid"
+                    style="fill: green"
+                  ></box-icon>
+                  <box-icon
+                    name="star"
+                    type="solid"
+                    style="fill: green"
+                  ></box-icon>
+                  <box-icon
+                    name="star"
+                    type="solid"
+                    style="fill: green"
+                  ></box-icon>
+                </div>
+
+                <p style="text-align: justify">
+                  Estoy muy satisfecho con la guardería de animales. He llevado
+                  a mi perro, mi gato y mi loro, y cada uno de ellos ha tenido
+                  una experiencia maravillosa. Las instalaciones son limpias y
+                  bien mantenidas, con espacios amplios para que los perros
+                  jueguen y socialicen.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-lg-4" style="padding: 10px">
+            <div
+              class="card"
+              style="width: auto; height: 100%; box-shadow: 1px 1px 10px red"
+            >
+              <div
+                class="card-body d-flex flex-column justify-content-center align-items-center"
+              >
+                <h5 class="card-title" style="color: red">Andrés Cuevas</h5>
+                <div class="profile">
+                  <img
+                    class="img-fluid"
+                    src="img/profile3.jpeg"
+                    alt="Andrés Cuevas"
+                  />
+                </div>
+                <div class="stars">
+                  <box-icon
+                    name="star"
+                    type="solid"
+                    style="fill: red"
+                  ></box-icon>
+                  <box-icon
+                    name="star"
+                    type="solid"
+                    style="fill: red"
+                  ></box-icon>
+                  <box-icon
+                    name="star"
+                    type="solid"
+                    style="fill: red"
+                  ></box-icon>
+                  <box-icon
+                    name="star-half"
+                    type="solid"
+                    style="fill: red"
+                  ></box-icon>
+                  <box-icon name="star" style="fill: red"></box-icon>
+                </div>
+
+                <p style="text-align: justify">
+                  El personal es muy amable y se nota que ama a los animales. Me
+                  encanta que ofrecen actualizaciones diarias sobre cómo están
+                  mis mascotas, lo que me da mucha tranquilidad. Mi gato, que
+                  suele ser un poco tímido, se adaptó rápidamente gracias a los
+                  cuidados individuales que recibe.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="col-12 col-lg-4" style="background-color: rgb(153, 0, 255)">.</div>
-        <div class="col-12 col-lg-4" style="background-color: rgb(0, 255, 17)">.</div>
-      </div>
     </div>
 
-    <!-- <div style="background-color: black">
-      
-      <div class="container">
-        <div class="row">
-          <div class="col-4" style="background-color: burlywood">
-            <div class="col-12">Sofia Vivas</div>
-            <div class="profile">
-              <img src="img/profile1.jpeg" alt="sofia Vivas" />
-            </div>
-            <div class="row">
-              <box-icon name="star" type="solid"></box-icon>
-              <box-icon name="star" type="solid"></box-icon>
-              <box-icon name="star" type="solid"></box-icon>
-              <box-icon name="star" type="solid"></box-icon>
-              <box-icon name="star"></box-icon>
-            </div>
-            <div class="col-12">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint
-              odit harum quo veniam odio nostrum saepe dolore, consequatur
-              dolorum labore? Recusandae consequatur fugit perspiciatis eos,
-              dicta ipsum molestiae nobis in.
-            </div>
-          </div>
-        </div>
-      </div>
-    </div> -->
-    ...
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"

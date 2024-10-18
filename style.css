@@ -100,16 +100,52 @@
   }
 }
 
-.profile{
-  height: 200px;
-  width: 200px;
-  overflow: hidden;
+.card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  box-shadow: 1px 1px 1px #000;
 }
 
-.profile img{
+.card-body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.profile {
   width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center;
+  max-width: 16rem;
+  height: 16rem;
+  margin-bottom: 10px;
+  overflow: hidden;
+  align-self: center;
   border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile img {
+  width: 100%;
+  height: auto;
+  max-height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.card-title {
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.stars {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.card-body p {
+  margin-bottom: auto;
 }
