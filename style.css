@@ -4,6 +4,7 @@
   font-style: normal;
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
 }
 
 .nav-link:hover {
@@ -150,4 +151,41 @@
 
 .card-body p {
   margin-bottom: auto;
+}
+
+.cardservice {
+  height: 210px;
+  width: auto;
+  background-color: white;
+  box-shadow: 0px 0px 2px #000;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 10px;
+  transition: background-color 1s, transform 1s;
+
+
+  h4 {
+    text-transform: uppercase;
+    font-size: 19px;
+    font-weight: bold;
+  }
+
+  box-icon, material-symbols-outlined {
+    height: 100px;
+    width: auto;
+    fill: green;
+    transition: background-color 1s, transform 1s;
+  }
+}
+
+.cardservice:hover {
+  background-color: rgb(45, 45, 45);
+  color: white;
+  box-shadow: 0px 0px 7px rgb(255, 255, 255);
+  transform: scale(1.1);
+
+  box-icon{
+    transform: scale(1.4);
+    fill: white;
+  }
 }

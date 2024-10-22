@@ -45,15 +45,19 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="" id="home"
+                <a
+                  class="nav-link"
+                  aria-current="page"
+                  href="#home"
+                  onclick="scrollToTop()"
                   >Inicio</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="" id="services">Servicios</a>
+                <a class="nav-link" href="#services">Servicios</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="pricing.html">Precios</a>
+                <a class="nav-link" href="#pricing">Precios</a>
               </li>
             </ul>
           </div>
@@ -62,6 +66,7 @@
     </div>
 
     <div
+      id="home"
       class="banner"
       style="overflow: hidden; width: 100%; max-height: 25rem"
     >
@@ -178,16 +183,211 @@
       </div>
     </div>
 
-    <div
-      class="container-fluid"
-      style="background-color: green; margin-bottom: 30px"
-    >
-      <div class="container" style="padding-top: 70px; padding-bottom: 70px" id="services">
-        <div class="col-12">
-          <div class="row" id="card-container"></div>
+    <div >
+      <div
+        class="container-fluid"
+        style="
+          width: 100%;
+          height: auto;
+          background-color: rgb(0, 92, 0);
+          padding-top: 40px;
+          padding-bottom: 90px;
+        "
+      >
+        <h2 style="font-weight: bold; color: white; text-align: center; padding: 60px;" id="services">NUESTROS SERVICIOS</h2>
+
+        <div class="container">
+          <div class="row">
+            <div class="container">
+              <div class="row">
+                <div class="container col-12 col-lg-4">
+                  <div class="col-12">
+                    <div class="container cardservice">
+                      <div class="row">
+                        <div class="col-2" style="align-content: center">
+                          <box-icon type="solid" name="dog"></box-icon>
+                        </div>
+                        <div class="col-10">
+                          <h4>Cuidado Diurno</h4>
+                          <p>
+                            Ofrecemos un servicio de cuidado diurno donde las
+                            masctoras pueden socializar y jugar en un entorno
+                            seguro y controlado bajo supervisión constante
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="container col-12 col-lg-4">
+                  <div class="col-12">
+                    <div class="container cardservice">
+                      <div class="row">
+                        <div class="col-2" style="align-content: center">
+                          <box-icon type="solid" name="home-heart"></box-icon>
+                        </div>
+                        <div class="col-10">
+                          <h4>Alojamiento Nocturno</h4>
+                          <p>
+                            Proporcionamos alojamiento cómodo y seguro para
+                            mascotas durante la noche, asegurando que tengan un
+                            lugar acogedor para descansar.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="container col-12 col-lg-4">
+                  <div class="col-12">
+                    <div class="container cardservice">
+                      <div class="row">
+                        <div class="col-2" style="align-content: center">
+                          <box-icon name="dumbbell"></box-icon>
+                        </div>
+                        <div class="col-10">
+                          <h4>Paseos y ejercicios</h4>
+                          <p>
+                            Ofrecemos paseos regulares para tús mascotas y
+                            sesiones de ejercicio, ayudando a mantener a las
+                            mascotas activas y saludables mientras están en
+                            nuestra guarderia
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="container col-12 col-lg-4">
+                  <div class="col-12">
+                    <div class="container cardservice">
+                      <div class="row">
+                        <div class="col-2" style="align-content: center">
+                          <box-icon name="food-menu" type="solid"></box-icon>
+                        </div>
+                        <div class="col-10">
+                          <h4>Alimentación personalizada</h4>
+                          <p>
+                            Nos aseguramos de que cada mascota reciba la
+                            alimentación adecuada según sus necesidades
+                            dietéticas y preferencias proporcionando comidas
+                            equilibradas y saludables.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="container col-12 col-lg-4">
+                  <div class="col-12">
+                    <div class="container cardservice">
+                      <div class="row">
+                        <div class="col-2" style="align-content: center">
+                          <box-icon name="unite"></box-icon>
+                        </div>
+                        <div class="col-10">
+                          <h4>Socialización controlada</h4>
+                          <p>
+                            Organizamos sesiones de socialización para perros y
+                            gatos, permiténndoles interactuar de manera segura
+                            con otras mascotas y desarrollar habilidades
+                            sociales.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="container col-12 col-lg-4">
+                  <div class="col-12">
+                    <div class="container cardservice">
+                      <div class="row">
+                        <div class="col-2" style="align-content: center">
+                          <box-icon type="logo" name="twitter"></box-icon>
+                        </div>
+                        <div class="col-10">
+                          <h4>Cuidado de aves</h4>
+                          <p>
+                            Ofrecemos servicios especializados para el cuidado
+                            de pájaros, incluyendo atención en su dieta, espacio
+                            adecuado y enriquecimiento ambiental
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="container col-12 col-lg-4">
+                  <div class="col-12">
+                    <div class="container cardservice">
+                      <div class="row">
+                        <div class="col-2" style="align-content: center">
+                          <box-icon name="clinic" type="solid"></box-icon>
+                        </div>
+                        <div class="col-10">
+                          <h4>Atención Médica Básica</h4>
+                          <p>
+                            Proporcionamos atención médica básica, como la
+                            administración de medicamentos y control de salud,
+                            asegurando que las mascotas estén bien atendidas.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="container col-12 col-lg-4">
+                  <div class="col-12">
+                    <div class="container cardservice">
+                      <div class="row">
+                        <div class="col-2" style="align-content: center">
+                          <box-icon name="bath" type="solid"></box-icon>
+                        </div>
+                        <div class="col-10">
+                          <h4>Baños y Acicalamiento</h4>
+                          <p>
+                            Ofrecemos servicios de baño y acicalamiento para
+                            amntener a las mascotas limpias y bien cuidadas,
+                            utilizando productos adecuados apra cada especie.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="container col-12 col-lg-4">
+                  <div class="col-12">
+                    <div class="container cardservice">
+                      <div class="row">
+                        <div class="col-2" style="align-content: center">
+                          <box-icon name="chat" type="solid"></box-icon>
+                        </div>
+                        <div class="col-10">
+                          <h4>Asesoria para dueños</h4>
+                          <p>
+                            Proporcionamos asesoramiento a los dueños sobre el
+                            comportamiento y cuidado de sus mascotas, ofreciendo
+                            tips sobre adiestramiento y bienestar general.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
+
+    <div class="container-fluid" style="height: 100px"></div>
 
     <div
       class="container-fluid"
@@ -353,6 +553,7 @@
       </div>
     </div>
 
+    <div class="container-fluid" style="height: 100px"></div>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
