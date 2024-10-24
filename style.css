@@ -39,7 +39,8 @@
   transform: translate(-50%, -50%);
   color: white;
   font-weight: lighter;
-  font-size: 3vw;
+  font-size: 2.8vw;
+  font-family: "DynaPuff", arial;
   text-shadow: 10px 2px 6px #000;
 }
 
@@ -121,7 +122,7 @@
   max-width: 16rem;
   height: 16rem;
   margin-bottom: 10px;
-  overflow: hidden;
+  overflow: visible;
   align-self: center;
   border-radius: 50%;
   display: flex;
@@ -131,10 +132,20 @@
 
 .profile img {
   width: 100%;
-  height: auto;
-  max-height: 100%;
+  height: 100%;
   object-fit: cover;
   border-radius: 50%;
+}
+
+.profile-status {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: green;
+  border: 2px solid white;
 }
 
 .card-title {
@@ -161,8 +172,7 @@
   border-radius: 10px;
   padding: 10px;
   margin-top: 10px;
-  transition: background-color 1s, transform 1s;
-
+  transition: background-color 0.5s, transform 0.3s;
 
   h4 {
     text-transform: uppercase;
@@ -170,11 +180,12 @@
     font-weight: bold;
   }
 
-  box-icon, material-symbols-outlined {
+  box-icon,
+  material-symbols-outlined {
     height: 100px;
     width: auto;
     fill: green;
-    transition: background-color 1s, transform 1s;
+    transition: background-color 1s, transform 0.5s;
   }
 }
 
@@ -182,10 +193,100 @@
   background-color: rgb(45, 45, 45);
   color: white;
   box-shadow: 0px 0px 7px rgb(255, 255, 255);
-  transform: scale(1.1);
+  transform: scale(1.05);
 
-  box-icon{
+  box-icon {
     transform: scale(1.4);
     fill: white;
+  }
+}
+
+.cardprice {
+  .morebutton {
+    background-color: rgb(50, 192, 50);
+    color: white;
+    font-weight: bold;
+  }
+  transition: background-color 0.2s, transform 0.5s;
+}
+
+.cardprice:hover {
+  color: white;
+
+  .bone {
+    fill: #fff;
+    transform: scale(1.05);
+    transform: scale(1.05);
+  }
+  .morebutton {
+    background-color: #fff;
+    color: #000;
+    transform: scale(1.05);
+  }
+}
+
+.cardprice:hover box-icon {
+  fill: #fff o !important ;
+}
+
+.cardprice.card1:hover {
+  background-color: green;
+}
+
+.cardprice.card2:hover {
+  background-color: rgb(34, 34, 212);
+}
+
+.cardprice.card3:hover {
+  background-color: rgb(226, 33, 33);
+}
+
+.cardprice.card4:hover {
+  background-color: #efb810;
+}
+
+.titleprices {
+  font-family: "DynaPuff", arial;
+  text-align: center;
+
+  span {
+    text-align: end;
+    align-items: end;
+    align-content: end;
+    position: absolute;
+    left: 80%;
+    transform: translate(-20%);
+  }
+}
+
+.infoplancard {
+  font-size: 16px;
+  padding-bottom: 20px;
+  text-align: justify;
+}
+
+.pricescard {
+  height: auto;
+  width: auto;
+}
+
+.Alertdialogs {
+  * {
+    color: black;
+  }
+  .modal-title {
+    font-family: "DynaPuff", arial;
+  }
+  .modal-body {
+    font-size: 15px;
+    text-align: justify;
+  }
+}
+
+.footer {
+  h2,
+  h4 {
+    color: white;
+    font-family: "DynaPuff", arial;
   }
 }
