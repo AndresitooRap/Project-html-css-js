@@ -164,7 +164,9 @@
 }
 
 .cardservice {
-  height: 210px;
+  height: auto;
+  min-height: 200px;
+  max-height: 250px;
   width: auto;
   background-color: white;
   box-shadow: 0px 0px 2px #000;
