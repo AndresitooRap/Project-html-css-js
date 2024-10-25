@@ -26,10 +26,14 @@ Este proyecto es una aplicación web diseñada para una guardería, desarrollada
 - **Bootstrap:** Framework CSS para diseño responsivo y componentes predefinidos.
 
 
-### CAPTURA DE PANTALLA
- <img alt="Logo" width="300" src="https://github.com/user-attachments/assets/bcd9e864-1e7a-4cc6-b8b6-1854c45bc470">
- <img alt="Logo" width="300" src="https://github.com/user-attachments/assets/bb94077a-e311-4fd4-936c-3747c22ff9a2">
- <img alt="Logo" width="300" src="https://github.com/user-attachments/assets/f78c6ba4-2842-4b1b-9082-d5b1f55692da">
+### CAPTURA DE PANTALLA CELULAR
+<div align="center">
+ <img alt="Logo" width="250" src="https://github.com/user-attachments/assets/bcd9e864-1e7a-4cc6-b8b6-1854c45bc470">
+ <img alt="Logo" width="250" src="https://github.com/user-attachments/assets/bb94077a-e311-4fd4-936c-3747c22ff9a2">
+ <img alt="Logo" width="250" src="https://github.com/user-attachments/assets/f78c6ba4-2842-4b1b-9082-d5b1f55692da">
+</div>
+
+### CAPTURA DE PANTALLA COMPUTADOR
 
 ![Screenshot](https://github.com/user-attachments/assets/9277a7b9-c979-44c3-b38e-0b05f650af97)
 ![Screenshot](https://github.com/user-attachments/assets/b217f1cf-0c53-4155-80a1-ca72d9472597)
